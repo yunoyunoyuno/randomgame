@@ -19,11 +19,7 @@ const App = () => {
           <ConfigPage fakeDB={DUMMY_DATA.current} {...props} setDummyData={setDummyData} />
         )}
       />
-      <Route
-        path="/"
-        exact
-        render={(props) => <MainPage fakeDB={DUMMY_DATA.current} {...props} />}
-      />
+      <Route path="/" render={(props) => <MainPage fakeDB={DUMMY_DATA.current} {...props} />} />
     </BrowserRouter>
   );
 };
