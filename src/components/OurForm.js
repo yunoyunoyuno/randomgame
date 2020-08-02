@@ -67,7 +67,9 @@ const OurForm = (props) => {
   });
 
   const onAdd = () => {
-    return setStateForm((f) => f.concat({ id: f.length + 1, text: "ไฮ ขอบคุณที่สร้างฉัน" }));
+    return setStateForm((f, i) =>
+      f.concat({ id: Math.random() * new Date().getTime(), text: "ไฮ ขอบคุณที่สร้างฉัน" })
+    );
   };
 
   return (
