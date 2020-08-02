@@ -25,3 +25,12 @@
   width: 2.5rem;
   height: 2.5rem;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a.active {
+  border-bottom: 3px solid #c21935;
+}

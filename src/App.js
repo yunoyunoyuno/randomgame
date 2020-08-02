@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./App.css";
 import MainPage from "./pages/MainPage";
+import ConfigPage from "./pages/ConfigPage";
+import { BrowserRouter, Route } from "react-router-dom";
+import { randomData } from "./data/randomData";
 
-function App() {
-  return <MainPage />;
-}
+const App = () => {
+  const DUMMY_DATA = useRef([...randomData]);
+
+  const setDummyData = (array) => {
+    DUMMY_DATA.current = [...array];
+  };
+  return (
+    <BrowserRouter>
+      <Route
+        path="/setting"
+        render={(props) => (
+          <ConfigPage fakeDB={DUMMY_DATA.current} {...props} setDummyData={setDummyData} />
+        )}
+      />
+      <Route
+        path="/"
+        exact
+        render={(props) => <MainPage fakeDB={DUMMY_DATA.current} {...props} />}
+      />
+    </BrowserRouter>
+  );
+};
 
 export default App;

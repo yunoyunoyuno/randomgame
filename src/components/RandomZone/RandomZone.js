@@ -1,5 +1,4 @@
 import React, { useState, useCallback } from "react";
-import { randomData } from "../../data/randomData";
 import Title from "../UI/Title/Title";
 import Button from "../UI/Button/Button";
 import Card from "../UI/Card/Card";
@@ -7,6 +6,7 @@ import Modal from "../Modal/Modal";
 import "./RandomZone.css";
 
 const RandomZone = (props) => {
+  const { fakeDB } = props;
   const [stateNum, setNumState] = useState("เลขที่ออก");
   const [stateOpenModal, setOpenModalState] = useState(false);
   const [stateIsRandom, setStateIsRandom] = useState(false);
@@ -17,7 +17,7 @@ const RandomZone = (props) => {
   }, []);
 
   const startRandom = () => {
-    setNumState(randomInt(1, randomData.length));
+    setNumState(randomInt(1, fakeDB.length));
   };
 
   const handleModal = () => {
@@ -33,7 +33,7 @@ const RandomZone = (props) => {
   let title = "ยังไม่ได้สุ่ม";
   let msg = "รอเพื่อนๆพี่ๆน้องๆหนูๆ เลือกอยู่นะ";
   if (typeof stateNum !== "string") {
-    msg = `${randomData[+stateNum - 1].text}`;
+    msg = `${fakeDB[+stateNum - 1].text}`;
     title = `เลข ${stateNum} !`;
   }
 

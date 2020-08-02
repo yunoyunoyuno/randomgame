@@ -1,0 +1,23 @@
+.inputCtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  height: 2rem;
+  padding-left: 0.6rem;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  width: 60%;
+}
+
+.input-span {
+  margin-left: 1.2rem;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 0.4rem;
+  background: red;
+}

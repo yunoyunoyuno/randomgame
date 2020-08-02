@@ -3,10 +3,11 @@ import NavigationBar from "../components/NavigationBar/MainNav";
 import RandomZone from "../components/RandomZone/RandomZone";
 
 const MainPage = (props) => {
+  const { fakeDB } = props;
   return (
     <React.Fragment>
       <NavigationBar />
-      <RandomZone />
+      <RandomZone fakeDB={fakeDB} />
     </React.Fragment>
   );
 };
