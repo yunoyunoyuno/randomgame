@@ -12,7 +12,7 @@ const App = () => {
     DUMMY_DATA.current = [...array];
   };
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Route
         path="/setting"
         render={(props) => (
