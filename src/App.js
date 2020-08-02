@@ -12,7 +12,7 @@ const App = () => {
     DUMMY_DATA.current = [...array];
   };
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="https://yunoyunoyuno.github.io/YN-RandomNumber/">
       <Route
         path="/setting"
         render={(props) => (

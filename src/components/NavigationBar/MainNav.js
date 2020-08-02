@@ -7,7 +7,7 @@ const MainNav = (props) => {
     <header className="main-header">
       <div className="main-header__container">
         <Link to="/">
-          <img alt="Logo" src={require("./math.png")} className="main-header__brand" />
+          <img alt="Logo" src={require("./Math.png")} className="main-header__brand" />
         </Link>
       </div>
       <nav className="main-nav">
