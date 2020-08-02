@@ -6,7 +6,7 @@ const MainPage = (props) => {
   const { fakeDB } = props;
   return (
     <React.Fragment>
-      <NavigationBar />
+      <NavigationBar {...props} />
       <RandomZone fakeDB={fakeDB} />
     </React.Fragment>
   );

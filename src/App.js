@@ -12,7 +12,7 @@ const App = () => {
     DUMMY_DATA.current = [...array];
   };
   return (
-    <BrowserRouter basename="https://yunoyunoyuno.github.io/YN-RandomNumber/">
+    <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
       <Switch>
         <Route
           path="/setting"
