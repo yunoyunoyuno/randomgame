@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar/MainNav";
 import OurForm from "../components/OurForm";
-import { randomData } from "../data/randomData";
 
 const ConfigPage = (props) => {
   return (
