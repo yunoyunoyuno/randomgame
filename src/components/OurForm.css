@@ -13,7 +13,8 @@
 
 .btn-form {
   padding: 1.2rem;
-  width: 15%;
+  width: 25%;
+  min-width: 12rem;
   background: red;
   color: white;
   border-radius: 20px;

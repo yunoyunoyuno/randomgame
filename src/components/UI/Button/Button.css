@@ -1,5 +1,6 @@
 .btn {
   width: 25%;
+  min-width: 7rem;
   align-self: center;
   margin-top: 1rem;
   height: 3rem;
