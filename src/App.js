@@ -12,7 +12,7 @@ const App = () => {
     DUMMY_DATA.current = [...array];
   };
   return (
-    <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
+    <BrowserRouter>
       <Switch>
         <Route
           path="/setting"
