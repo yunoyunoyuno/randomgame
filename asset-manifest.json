@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/randomgame/static/css/main.9485cea0.chunk.css",
+    "main.js": "/randomgame/static/js/main.5a2e8bde.chunk.js",
+    "main.js.map": "/randomgame/static/js/main.5a2e8bde.chunk.js.map",
+    "runtime-main.js": "/randomgame/static/js/runtime-main.d0fb4348.js",
+    "runtime-main.js.map": "/randomgame/static/js/runtime-main.d0fb4348.js.map",
+    "static/js/2.4410fe19.chunk.js": "/randomgame/static/js/2.4410fe19.chunk.js",
+    "static/js/2.4410fe19.chunk.js.map": "/randomgame/static/js/2.4410fe19.chunk.js.map",
+    "index.html": "/randomgame/index.html",
+    "precache-manifest.49645983bb1c269b225bb0919b20ab39.js": "/randomgame/precache-manifest.49645983bb1c269b225bb0919b20ab39.js",
+    "service-worker.js": "/randomgame/service-worker.js",
+    "static/css/main.9485cea0.chunk.css.map": "/randomgame/static/css/main.9485cea0.chunk.css.map",
+    "static/js/2.4410fe19.chunk.js.LICENSE.txt": "/randomgame/static/js/2.4410fe19.chunk.js.LICENSE.txt",
+    "static/media/Math.png": "/randomgame/static/media/Math.19ad2786.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0fb4348.js",
+    "static/js/2.4410fe19.chunk.js",
+    "static/css/main.9485cea0.chunk.css",
+    "static/js/main.5a2e8bde.chunk.js"
+  ]
+}
