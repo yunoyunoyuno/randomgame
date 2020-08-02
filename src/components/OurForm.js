@@ -91,7 +91,6 @@ const OurForm = (props) => {
         {allData}
         <button className="btn-form">Submit</button>
       </form>
-      );
     </>
   );
 };
