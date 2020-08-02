@@ -1,0 +1,27 @@
+.gameZone {
+  background: #191919;
+  width: 100%;
+  color: #efefd0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.gameZone__btn-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.gameZone__result {
+  width: 50%;
+  height: 70%;
+  margin: 2rem auto;
+  background: #f7c59f;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
