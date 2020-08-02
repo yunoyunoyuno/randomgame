@@ -22,13 +22,14 @@
 }
 
 .main-header__brand {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.8rem;
+  height: 2.8rem;
 }
 
 a {
   color: white;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 a.active {
