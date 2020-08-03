@@ -6,13 +6,13 @@ const MainNav = (props) => {
   return (
     <header className="main-header">
       <div className="main-header__container">
-        <Link to="/">
+        <Link to={`${process.env.PUBLIC_URL}/`}>
           <img alt="Logo" src={require("./Math.png")} className="main-header__brand" />
         </Link>
       </div>
       <nav className="main-nav">
         <ul className="main-nav__items">
-          <NavLink to="/setting">Setting</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/setting`}>Setting</NavLink>
         </ul>
       </nav>
     </header>

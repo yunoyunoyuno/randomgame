@@ -15,7 +15,7 @@ const App = () => {
     <BrowserRouter>
       <Switch>
         <Route
-          path="/setting"
+          path={`${process.env.PUBLIC_URL}/setting`}
           render={(props) => (
             <ConfigPage fakeDB={DUMMY_DATA.current} {...props} setDummyData={setDummyData} />
           )}
