@@ -83,7 +83,8 @@ const OurForm = (props) => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          flexDirection: "column"
+          flexDirection: "column",
+          marginRight: "0.2rem"
         }}
       >
         <h1 className="form-title">คัสต้อม ค่าแรนด้อม</h1>
