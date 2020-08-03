@@ -12,7 +12,7 @@ const MainNav = (props) => {
       </div>
       <nav className="main-nav">
         <ul className="main-nav__items">
-          <NavLink to={`${process.env.PUBLIC_URL}/setting`}>Setting</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/setting`}>คัสต้อมค่าแรนด้อม</NavLink>
         </ul>
       </nav>
     </header>

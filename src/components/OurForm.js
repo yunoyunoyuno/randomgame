@@ -91,7 +91,7 @@ const OurForm = (props) => {
       </div>
       <form className="our-form" onSubmit={(e) => onSubmit(e)}>
         {allData}
-        <button className="btn-form">Submit</button>
+        <button className="btn-form">โอเค เล้สโก</button>
       </form>
     </>
   );
